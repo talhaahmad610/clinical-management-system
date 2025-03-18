@@ -1,3 +1,27 @@
 <?php include 'includes/header.php'; ?>
-    <h1>Login</h1>
+    <div class="container mt-3">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-4">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-dark text-white">
+                        <i class="fa fa-sign-in"></i> Sign In
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                        <label for="" class="fa fa-envelope">Email</label>
+                        <input type="email" class="form-control" placeholder="Email" name="email">
+                        </div>
+                        <div class="form-group mt-3 mb-2">
+                        <label for="" class="fa fa-key">Password</label>
+                        <input type="password" class="form-control" placeholder="password" name="password">
+                        </div>
+                        <a href="forget.php" class="text-decoration-none"><i class="fa fa-lock me-2"></i>Forget Password</a>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-dark text-white w-100"><i class="fa fa-sign-in"></i>Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <?php include 'includes/footer.php'; ?>
